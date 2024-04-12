@@ -47,11 +47,11 @@ header {
   padding-top: 7px;
 }
 .header-left-h2-container h2,
-.right-header-container h2 {
+.right-header-wrapper h2 {
   font-weight: 500;
 }
 
-.right-header-container {
+.right-header-wrapper {
   margin-left: auto;
   margin-right: 35px;
   margin-top: 15px;
@@ -82,5 +82,24 @@ header {
   font-weight: 100;
   font-family: sans-serif;
   line-height: 1.4em;
-  padding-top: 10px;
+  padding-top: 8px;
+}
+
+@media screen and (max-width: 1000px) {
+  header {
+    display: block;
+    text-align: center;
+  }
+  .left-side-header-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 586px) {
+  .left-side-header-wrapper {
+    display: block;
+  }
+  .header-left-h1-container {
+    border-right: none;
+  }
 }
