@@ -5,18 +5,23 @@
 }
 
 nav {
-  margin: 8px 30px 20px;
+  /* margin: 8px 2px 20px; */
 }
 
 nav .navlist {
   display: flex;
   list-style-type: none;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  justify-content: center;
+  gap: 15px;
+  margin: 8px 20px 20px;
 }
 
 ul li {
-  background-color: rgba(26, 85, 163, 0.884);
+  background-color: rgba(26, 85, 153, 0.973);
   font-size: 32px;
   color: #f5eded;
   padding: 25px 70px;
+  text-align: center;
 }
