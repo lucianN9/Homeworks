@@ -11,9 +11,7 @@ nav {
 nav .navlist {
   display: flex;
   list-style-type: none;
-  flex-wrap: wrap;
-  flex-grow: 1;
-  justify-content: center;
+  justify-content: space-evenly;
   gap: 15px;
 }
 
@@ -21,8 +19,9 @@ ul li {
   background-color: rgba(26, 85, 153, 0.973);
   font-size: 32px;
   color: #f5eded;
-  padding: 25px 70px;
+  padding: 25px 64px;
   text-align: center;
+  width: 20%;
 }
 header {
   display: flex;
@@ -55,6 +54,7 @@ header {
   margin-left: auto;
   margin-right: 35px;
   margin-top: 15px;
+  font-family: sans-serif;
 }
 .news-article {
   max-width: 100%;
