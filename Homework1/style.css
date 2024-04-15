@@ -17,7 +17,7 @@ nav .navlist {
   padding-right: 12px;
 }
 
-ul li {
+ul li.header-list {
   background-color: rgba(26, 85, 153, 0.973);
   font-size: 32px;
   color: #f5eded;
@@ -94,7 +94,7 @@ a.mail-send:hover {
   padding-top: 40px;
   padding-left: 40px;
   position: relative;
-  margin-bottom: 150px;
+  margin-bottom: 115px;
 }
 .news-article-container {
   width: 460px;
@@ -133,6 +133,44 @@ div.todays-technology span.todays-tech-angled-bracket {
   display: inline-block;
 }
 /* this is the END of FIRST ARTICLE editing section */
+
+/* this is the MAIN element editing section */
+ul.cards-list {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+  gap: 27px;
+}
+div.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(224, 224, 224);
+  padding: 30px 62px 62px;
+}
+div.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 330px;
+}
+div.card-image-placeholder {
+  width: 270px;
+  height: 90px;
+  background-color: rgb(36, 29, 29);
+}
+h3.card-title {
+  font-size: 40px;
+  font-weight: 500;
+  border-bottom: 2px dotted gray;
+  padding-bottom: 15px;
+}
+div.card-description {
+  font-size: 20px;
+}
+/* this is the END of MAIN element editing section */
+
 @media screen and (max-width: 1000px) {
   header {
     display: block;
