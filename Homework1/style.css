@@ -139,35 +139,50 @@ ul.cards-list {
   display: flex;
   list-style-type: none;
   justify-content: space-evenly;
-  gap: 27px;
+  gap: 15px;
 }
 div.card {
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: rgb(224, 224, 224);
-  padding: 30px 62px 62px;
+  padding: 30px 25px 62px;
 }
 div.card-body {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  width: 330px;
+  align-items: center;
+  width: 530px;
 }
 div.card-image-placeholder {
-  width: 270px;
-  height: 90px;
-  background-color: rgb(36, 29, 29);
+  display: flex;
+  width: 486px;
+  height: 180px;
+  background-color: rgba(39, 39, 39, 0.959);
+  margin-top: 30px;
+  border: 8px solid #fff;
+  outline-style: solid;
+  outline-width: 2px;
+  outline-color: rgba(13, 74, 143, 0.815);
+  font-size: 50px;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  margin-bottom: 30px;
 }
 h3.card-title {
-  font-size: 40px;
+  font-size: 43px;
   font-weight: 500;
   border-bottom: 2px dotted gray;
   padding-bottom: 15px;
 }
 div.card-description {
-  font-size: 20px;
+  font-size: 28px;
+  padding: 0 10px;
+  padding-left: 18px;
+  font-family: sans-serif;
+  color: rgba(32, 32, 32, 0.918);
 }
 /* this is the END of MAIN element editing section */
 
