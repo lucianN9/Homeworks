@@ -25,7 +25,7 @@ ul li.header-list {
   text-align: center;
   width: 20%;
 }
-ul li a {
+ul li.header-list a {
   text-decoration: none;
   color: #fff;
 }
@@ -194,6 +194,30 @@ div a.read-more {
 }
 
 /* this is the END of MAIN element editing section */
+
+/* this is the SECTION CATEGORIES editing section */
+
+div.categories-wrapper {
+  display: flex;
+  margin-top: 60px;
+  padding: 0 35px;
+}
+div.categories-wrapper-left-container {
+  display: flex;
+}
+div.img-text-right-description {
+  display: flex;
+  flex-direction: column;
+}
+div.categories-list-container {
+  display: flex;
+  flex-direction: column;
+}
+div.categories-left-container-placeholder {
+  width: 350px;
+  height: 180px;
+  background-color: rgba(39, 39, 39, 0.959);
+}
 
 @media screen and (max-width: 1000px) {
   header {
