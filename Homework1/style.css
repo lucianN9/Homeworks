@@ -25,6 +25,13 @@ ul li {
   text-align: center;
   width: 20%;
 }
+ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+ul li a:hover {
+  color: rgb(54, 194, 54);
+}
 /* this is the END of the NAV editing section */
 
 /* this is the HEADER editing section */
@@ -60,6 +67,20 @@ header {
   margin-right: 35px;
   margin-top: 15px;
   font-family: sans-serif;
+}
+a.call-number,
+a.mail-send {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+a.mail-send {
+  display: block;
+  margin-top: 5px;
+}
+a.call-number:hover,
+a.mail-send:hover {
+  color: green;
 }
 /* this is the END of the HEADER editing section */
 
