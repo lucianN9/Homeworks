@@ -29,7 +29,7 @@ ul li a {
   text-decoration: none;
   color: #fff;
 }
-ul li a:hover {
+ul li.header-list a:hover {
   color: rgb(54, 194, 54);
 }
 /* this is the END of the NAV editing section */
@@ -146,7 +146,7 @@ div.card {
   flex-direction: column;
   align-items: center;
   background-color: rgb(224, 224, 224);
-  padding: 30px 25px 62px;
+  padding: 30px 25px 25px;
 }
 div.card-body {
   display: flex;
@@ -184,6 +184,14 @@ div.card-description {
   font-family: sans-serif;
   color: rgba(32, 32, 32, 0.918);
 }
+div a.read-more {
+  display: block;
+  margin-top: 40px;
+  text-align: right;
+  color: rgb(0, 53, 133);
+  font-weight: 550;
+}
+
 /* this is the END of MAIN element editing section */
 
 @media screen and (max-width: 1000px) {
