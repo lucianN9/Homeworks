@@ -1,0 +1,10 @@
+/* body {
+  background-image: url(template.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+} */
+img {
+  width: 100%;
+  height: auto;
+}
