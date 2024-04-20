@@ -1,9 +1,11 @@
-// Compute the sum of the elements of an array and display it in the console
+// Compute the maximum of the elements of an array and display it in the console
 
 let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-let sum = 0;
+let max = 0;
 
-for (i = 0; i < arr.length; i++) {
-  sum = sum + arr[i];
-  console.log(sum);
+for (const value of arr) {
+  if (value > max) {
+    max = value;
+  }
 }
+console.log(max);
