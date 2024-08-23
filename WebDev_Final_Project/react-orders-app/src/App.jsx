@@ -1,5 +1,11 @@
+import PageTitle from "./components/PageTitle";
+
 const App = () => {
-  return <div>App</div>;
+  return (
+    <>
+      <PageTitle />
+    </>
+  );
 };
 
 export default App;
